@@ -1,0 +1,26 @@
+{
+    "students": {
+        "S001": {
+            "name": "Nasir Uddin",
+            "age": 23,
+            "address": "Mirpur-2,Dhaka.",
+            "student_id": "S001",
+            "grades": {
+                "PHY101": "A"
+            },
+            "courses": [
+                "PHY101"
+            ]
+        }
+    },
+    "courses": {
+        "PHY101": {
+            "course_name": "Physics",
+            "course_code": "PHY101",
+            "instructor": "Dr. Nasir Uddin",
+            "students": [
+                "S001"
+            ]
+        }
+    }
+}
